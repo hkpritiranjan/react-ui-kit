@@ -1,0 +1,31 @@
+.rk-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: background 0.2s;
+  }
+  
+  .rk-btn--primary {
+    background: #3b82f6;
+    color: #ffffff;
+  }
+  
+  .rk-btn--primary:hover {
+    background: #2563eb;
+  }
+  
+  .rk-btn--secondary {
+    background: transparent;
+    border: 1px solid #3b82f6;
+    color: #3b82f6;
+  }
+  
+  .rk-btn--secondary:hover {
+    background: #e0e7ff;
+  }
+  
